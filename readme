@@ -1,0 +1,14 @@
+Problem Description :->
+
+To forecast the sales for different products in different reasons. We were provided with the sales 
+data of different products from different merchants in a given reason, country wise. Along with this, 
+orgainizer also provide us the holiday and promotional expense data, where holiday data consists of
+holiday dates in a given country and promotional data consists of expense that was made to promote
+a given product in a given reason at a given time (year month).
+
+Data : train, test, holiday data, promotinal data
+
+Evaluation metric : SMAPE (Symmetric Mean absolute Percent error) SMAPE self-limits to an error rate
+of 200%, reducing the influence of these low volume items. Low volume items are problematic because 
+they could otherwise have infinitely high error rates that skew the overall error rate. 
+SMAPE = (2/N) sum((|f-a|)/(f+a))
