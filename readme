@@ -1,6 +1,6 @@
 Problem Description :->
 
-To forecast the sales for different products in different reasons. We were provided with the sales 
+To forecast the sales for different products in different regions. We were provided with the sales 
 data of different products from different merchants in a given reason, country wise. Along with this, 
 orgainizer also provide us the holiday and promotional expense data, where holiday data consists of
 holiday dates in a given country and promotional data consists of expense that was made to promote
